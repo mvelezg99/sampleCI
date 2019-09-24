@@ -80,16 +80,16 @@ node_modules
 frontend/vue-code-coverage/node_modules
 
 node_modules
-frontend/vue-code-coverage/dist
+/frontend/vue-code-coverage/dist
 
 # local env files
 frontend/vue-code-coverage/.env.local
 frontend/vue-code-coverage/.env.*.local
 
 # Log files
-frontend/vue-code-coverage/npm-debug.log*
-frontend/vue-code-coverage/yarn-debug.log*
-frontend/vue-code-coverage/yarn-error.log*
+/frontend/vue-code-coverage/npm-debug.log*
+/frontend/vue-code-coverage/yarn-debug.log*
+/frontend/vue-code-coverage/yarn-error.log*
 
 # Editor directories and files
 .idea
@@ -99,3 +99,5 @@ frontend/vue-code-coverage/yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+/frontend/vue-code-coverage/node_modules/
+/frontend/vue-code-coverage/node_modules/
