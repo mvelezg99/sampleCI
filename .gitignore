@@ -77,14 +77,13 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
-frontend/vue-code-coverage/node_modules
 
 node_modules
 /frontend/vue-code-coverage/dist
 
 # local env files
-frontend/vue-code-coverage/.env.local
-frontend/vue-code-coverage/.env.*.local
+.env.local
+.env.*.local
 
 # Log files
 /frontend/vue-code-coverage/npm-debug.log*
@@ -99,5 +98,4 @@ frontend/vue-code-coverage/.env.*.local
 *.njsproj
 *.sln
 *.sw?
-/frontend/vue-code-coverage/node_modules/
 /frontend/vue-code-coverage/node_modules/
