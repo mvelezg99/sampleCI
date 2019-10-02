@@ -1,4 +1,12 @@
+dist: trusty
 language: node_js
+
+addons:
+  sonarcloud:
+    organization: "mvelezg99"
+    token:
+      secure: "1d40be1ebbe3b9abc9f54f2ecd8a28dd883a687d" # encrypted value of your token
+
 node_js:
   - "stable"
 cache:
@@ -13,6 +21,6 @@ env:
 
 script:
   - npm test
+  - sonar-scanner
 after_success:
   - npm run coverage
-  
